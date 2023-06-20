@@ -1,10 +1,15 @@
-﻿namespace Craps
+﻿namespace RockPaperScissorsAgainBecauseCrapsIsTooHard
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+           Random random = new Random();
+            int randomValue = random.Next(1,4);
+
+
         }
+
+      
     }
 }

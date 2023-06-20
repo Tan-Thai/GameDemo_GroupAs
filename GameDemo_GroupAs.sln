@@ -5,7 +5,7 @@ VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RockPaperScissors", "GameDemo_GroupAs\RockPaperScissors.csproj", "{93589743-0C70-4341-868D-F9934D516E78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Craps", "Craps\Craps.csproj", "{CE36D9E1-EF98-45DC-BA6B-CE975E292641}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockPaperScissorsAgainBecauseCrapsIsTooHard", "Craps\RockPaperScissorsAgainBecauseCrapsIsTooHard.csproj", "{CE36D9E1-EF98-45DC-BA6B-CE975E292641}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
