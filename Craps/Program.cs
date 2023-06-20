@@ -4,7 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+           Random random = new Random();
+            int randomValue = random.Next(1,4);
+
+
         }
+
+      
     }
 }
