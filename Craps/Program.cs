@@ -4,12 +4,12 @@
     {
         static void Main(string[] args)
         {
-            ChooseYourFighter();
+           Random random = new Random();
+            int randomValue = random.Next(1,4);
+
+
         }
 
-        private static void ChooseYourFighter()
-        {
-            throw new NotImplementedException();
-        }
+      
     }
 }
