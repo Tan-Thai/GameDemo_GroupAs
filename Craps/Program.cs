@@ -36,9 +36,9 @@
             else return 0;
 
         }
-        static void SettleTheScore(int fighter, int randomValue)
+        static void SettleTheScore(int player, int opponent)
         {
-            if fighter = 
+
         }
     }
 }
