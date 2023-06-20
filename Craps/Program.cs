@@ -1,10 +1,15 @@
-﻿namespace Craps
+﻿namespace RockPaperScissorsAgainBecauseCrapsIsTooHard
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            ChooseYourFighter();
+        }
+
+        private static void ChooseYourFighter()
+        {
+            throw new NotImplementedException();
         }
     }
 }
