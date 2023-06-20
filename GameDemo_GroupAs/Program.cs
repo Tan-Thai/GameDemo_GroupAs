@@ -1,4 +1,4 @@
-﻿namespace GameDemo_GroupAs
+﻿namespace RockPaperScissors
 {
     internal class Program
     {
