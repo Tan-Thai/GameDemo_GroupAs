@@ -24,10 +24,7 @@
                     break;
 
             }
-        }
-
-
         Console.WriteLine("Game Over");
-
+        }
     }
 }

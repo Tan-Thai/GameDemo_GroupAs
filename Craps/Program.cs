@@ -5,29 +5,40 @@
         static void Main(string[] args)
         {
             Random random = new Random();
-            int randomValue = random.Next(1, 4);
+            int opponentsChoice = random.Next(1, 4);
 
-            {
-                ChooseYourFighter();
-            }
+            Console.WriteLine("---- CHOOSE ----");
+            Console.WriteLine("[R]OCK");
+            Console.WriteLine("[P]APER");
+            Console.WriteLine("[S]CISSORS");
+            int playersChoice = ChooseYourFighter();
+            SettleTheScore(opponentsChoice, playersChoice);
+            Console.WriteLine($"you chose {playersChoice}");
 
         }
-        static void ChooseYourFighter()
+
+
+        static int ChooseYourFighter()
             {
             ConsoleKey input = Console.ReadKey().Key;
             if (input == ConsoleKey.R)
             {
-                Console.WriteLine("rock");
+                return 1;
             }
             else if (input == ConsoleKey.P)
             {
-                Console.WriteLine("paper");
+                return 2;
             }
             else if (input == ConsoleKey.S)
             {
-                Console.WriteLine("scissors");
+                return 3;
             }
+            else return 0;
 
+        }
+        static void SettleTheScore(int fighter, int randomValue)
+        {
+            if fighter = 
         }
     }
 }
